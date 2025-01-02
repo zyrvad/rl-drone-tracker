@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1735793929",
+        "python_version": "3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\jaden\\AppData\\Roaming\\Python\\Python310\\Scripts\\mlagents-learn --run-id=test_obstacles --results-dir=test_obstacles config_obstacles.yaml --resume",
+        "mlagents_version": "1.1.0",
+        "mlagents_envs_version": "1.1.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "2.5.1+cu124",
+        "numpy_version": "1.23.5",
+        "end_time_seconds": "1735793940"
+    },
+    "total": 11.173418899999888,
+    "count": 1,
+    "self": 0.0064117999991140096,
+    "children": {
+        "run_training.setup": {
+            "total": 0.08742830000119284,
+            "count": 1,
+            "self": 0.08742830000119284
+        },
+        "TrainerController.start_learning": {
+            "total": 11.079578799999581,
+            "count": 1,
+            "self": 9.059999865712598e-05,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 11.079473100000541,
+                    "count": 1,
+                    "self": 11.079473100000541
+                },
+                "TrainerController._save_models": {
+                    "total": 1.5100000382517464e-05,
+                    "count": 1,
+                    "self": 1.5100000382517464e-05
+                }
+            }
+        }
+    }
+}

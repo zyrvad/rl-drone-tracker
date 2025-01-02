@@ -1,0 +1,36 @@
+[
+  {
+    "MountId": "56e62dd7-241f-41e9-8c6b-dd4ca4513e62",
+    "AncestorCsetIds": [
+      12
+    ],
+    "SourceCsetId": 13,
+    "DestinationCsetId": 12,
+    "FileConflicts": [
+      {
+        "Path": "/Assets/DataProcessing/Agent.csv",
+        "ItemId": 1850,
+        "ParentItemId": 1625,
+        "BaseRevId": 1762,
+        "SourceRevId": 75645,
+        "DestinationRevId": 1762
+      },
+      {
+        "Path": "/Assets/DataProcessing/PID.csv",
+        "ItemId": 1856,
+        "ParentItemId": 1625,
+        "BaseRevId": 1769,
+        "SourceRevId": 75650,
+        "DestinationRevId": 1769
+      },
+      {
+        "Path": "/Assets/ML-Agents/Timers/TurningEnv_timers.json",
+        "ItemId": 1891,
+        "ParentItemId": 1755,
+        "BaseRevId": 1779,
+        "SourceRevId": 75651,
+        "DestinationRevId": 1779
+      }
+    ]
+  }
+]
